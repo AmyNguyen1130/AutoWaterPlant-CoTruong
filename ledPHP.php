@@ -1,0 +1,23 @@
+<html>
+ <head>
+ <meta name="viewport" content="width=device-width" />
+
+ <title>LED Control</title>
+ </head>
+         <body>
+		<div>
+		<form method="GET" action="led17.php">
+                <button type="submit" id="clickOn">LED 17</button><br>
+		</form>
+                <form method="GET" action="led18.php">
+                <button type="submit" id="clickOn">LED 18</button><br>
+                </form>
+		</div>
+		<form method="GET" action="turnOffAll.php">
+		<button type="submit">TURN OFF ALL</button>
+		</form>
+
+
+         </body>
+ </html>
+
